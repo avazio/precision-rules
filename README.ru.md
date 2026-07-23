@@ -3,6 +3,7 @@
 **Автор:** Avaz Ravshanov ([@avazio](https://x.com/avazio)) · 2026
 **Лицензия:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ru) — свободно используй и делись с указанием авторства
 **English version:** [README.md](README.md)
+**PDF-версия для печати:** [Avaz-Ravshanov_Precision-Rules-v2.pdf](Avaz-Ravshanov_Precision-Rules-v2.pdf)
 
 Глобальная инструкция для AI-ассистентов: проверка фактов, явные допущения, абсолютные даты, полные расчёты, ноль недоделок — при этом простые вопросы получают простые ответы.
 

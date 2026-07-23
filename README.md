@@ -3,6 +3,7 @@
 **Author:** Avaz Ravshanov ([@avazio](https://x.com/avazio)) · 2026
 **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — free to use and share with attribution
 **Русская версия:** [README.ru.md](README.ru.md)
+**Printable handout (RU):** [Avaz-Ravshanov_Precision-Rules-v2.pdf](Avaz-Ravshanov_Precision-Rules-v2.pdf)
 
 A global instruction block for AI assistants: fact-checking, explicit assumptions, absolute dates, full calculations, zero half-done work — while simple questions still get simple answers.
 
