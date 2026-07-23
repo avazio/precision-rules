@@ -1,11 +1,24 @@
-# Precision Rules v2
+<div align="center">
 
-**Автор:** Avaz Ravshanov ([@avazio](https://x.com/avazio)) · 2026
-**Лицензия:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ru) — свободно используй и делись с указанием авторства
-**English version:** [README.md](README.md)
-**PDF-версия для печати:** [Avaz-Ravshanov_Precision-Rules-v2.pdf](Avaz-Ravshanov_Precision-Rules-v2.pdf)
+<img src="banner.svg" alt="Precision Rules v2" width="100%">
 
-Глобальная инструкция для AI-ассистентов: проверка фактов, явные допущения, абсолютные даты, полные расчёты, ноль недоделок — при этом простые вопросы получают простые ответы.
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-17e68f?labelColor=050706)](LICENSE)
+[![Block size](https://img.shields.io/badge/block-1,496_chars-f4efe6?labelColor=050706)](precision-rules-v2.txt)
+[![Fits free ChatGPT](https://img.shields.io/badge/fits-free_ChatGPT-17e68f?labelColor=050706)](#chatgpt-chatgptcom--десктоп-приложение)
+
+**Один блок инструкций, который делает любого AI-ассистента точным** — проверка фактов, явные допущения, абсолютные даты, полные расчёты, ноль недоделок. Простые вопросы по-прежнему получают простые ответы.
+
+**Автор:** Аваз Равшанов ([@avazio](https://x.com/avazio)) · 2026 · [English version →](README.md)
+
+</div>
+
+---
+
+## Быстрый старт
+
+1. Скопируй блок целиком из [`precision-rules-v2.txt`](precision-rules-v2.txt) (или [внизу этой страницы](#блок-правил--скопируй-целиком)).
+2. Вставь его в поле пользовательских инструкций ассистента (точные пути ниже).
+3. Открой **новый** чат — правила действуют со следующего диалога.
 
 ## Как установить
 
@@ -14,7 +27,7 @@
 1. Открой **Settings** (иконка профиля внизу слева → «Settings»).
 2. Перейди в раздел **Profile**.
 3. Найди поле **«What personal preferences should Claude consider in responses?»**.
-4. Вставь блок правил (ниже) целиком и сохрани.
+4. Вставь блок правил целиком и сохрани.
 5. Правила действуют только в **новых** чатах — открой новый диалог.
 
 ### ChatGPT (chatgpt.com / десктоп-приложение)
@@ -28,14 +41,12 @@
 ## Примечания
 
 - **Часовой пояс:** в правиле 4 вместо «TZ» укажи свой пояс (например, `ALMT, UTC+5`), если важно время, а не только дата.
-- **Лимит символов:** блок v2 — 1 496 символов, помещается везде, включая бесплатный ChatGPT (лимит 1 500). Если поле всё же не принимает текст, удаляй правила в порядке: 7, 9, 6. Ядро — правила 1, 3, 4, 5, 8.
+- **Лимит символов:** блок v2 — ровно 1 496 символов, помещается везде, включая бесплатный ChatGPT (лимит 1 500). Если поле всё же не принимает текст, удаляй правила в порядке: 7, 9, 6. Ядро — правила 1, 3, 4, 5, 8.
 - Названия пунктов меню могут отличаться в зависимости от версии приложения и языка интерфейса — ищи «Custom Instructions» / «Preferences».
 - Работает и в других AI-приложениях: вставляй блок в любое поле «system prompt» / «custom instructions».
 - Строки в квадратных скобках вверху и внизу блока — атрибуция автора; по CC BY 4.0 сохраняй их при использовании и распространении.
 
 ## Блок правил — скопируй целиком
-
-Отдельным файлом: [`precision-rules-v2.txt`](precision-rules-v2.txt)
 
 ```
 [Precision Rules v2 | @avazio]
@@ -54,3 +65,11 @@ PRE-CHECK: Facts? Calcs? Cites? Assumptions marked? EVERY part done?
 ALL tasks. NON-NEGOTIABLE.
 [(c) 2026 Avaz Ravshanov @avazio | CC BY 4.0 | keep credit]
 ```
+
+## PDF для печати
+
+[`Avaz-Ravshanov_Precision-Rules-v2.pdf`](Avaz-Ravshanov_Precision-Rules-v2.pdf) — раздатка на 5 страниц (установка + блок); текст правил выделяется прямо из PDF без искажений.
+
+## Лицензия
+
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ru) — свободно используй, делись и адаптируй с указанием авторства. Сохраняй две строки атрибуции внутри блока.

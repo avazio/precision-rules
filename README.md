@@ -1,11 +1,24 @@
-# Precision Rules v2
+<div align="center">
 
-**Author:** Avaz Ravshanov ([@avazio](https://x.com/avazio)) · 2026
-**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — free to use and share with attribution
-**Русская версия:** [README.ru.md](README.ru.md)
-**Printable handout (RU):** [Avaz-Ravshanov_Precision-Rules-v2.pdf](Avaz-Ravshanov_Precision-Rules-v2.pdf)
+<img src="banner.svg" alt="Precision Rules v2" width="100%">
 
-A global instruction block for AI assistants: fact-checking, explicit assumptions, absolute dates, full calculations, zero half-done work — while simple questions still get simple answers.
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-17e68f?labelColor=050706)](LICENSE)
+[![Block size](https://img.shields.io/badge/block-1,496_chars-f4efe6?labelColor=050706)](precision-rules-v2.txt)
+[![Fits free ChatGPT](https://img.shields.io/badge/fits-free_ChatGPT-17e68f?labelColor=050706)](#chatgpt-chatgptcom--desktop-app)
+
+**One paste-once instruction block that makes any AI assistant precise** — fact-checking, explicit assumptions, absolute dates, full calculations, zero half-done work. Simple questions still get simple answers.
+
+**Author:** Avaz Ravshanov ([@avazio](https://x.com/avazio)) · 2026 · [Русская версия →](README.ru.md)
+
+</div>
+
+---
+
+## Quick start
+
+1. Copy the whole block from [`precision-rules-v2.txt`](precision-rules-v2.txt) (or from [the bottom of this page](#the-rules-block--copy-in-full)).
+2. Paste it into your assistant's custom-instructions field (exact paths below).
+3. Open a **new** chat — the rules apply from the next conversation.
 
 ## Install
 
@@ -14,7 +27,7 @@ A global instruction block for AI assistants: fact-checking, explicit assumption
 1. Open **Settings** (profile icon in the bottom-left → "Settings").
 2. Go to the **Profile** section.
 3. Find the field **"What personal preferences should Claude consider in responses?"**.
-4. Paste the rules block (below) in full and save.
+4. Paste the rules block in full and save.
 5. The rules apply to **new** chats only — start a fresh conversation.
 
 ### ChatGPT (chatgpt.com / desktop app)
@@ -35,8 +48,6 @@ A global instruction block for AI assistants: fact-checking, explicit assumption
 
 ## The rules block — copy in full
 
-Also available as a raw file: [`precision-rules-v2.txt`](precision-rules-v2.txt)
-
 ```
 [Precision Rules v2 | @avazio]
 Scale rigor: simple query->plain answer; analysis/calc/research->full structure (6); doubt->full. Never downgrade to skip work.
@@ -54,3 +65,11 @@ PRE-CHECK: Facts? Calcs? Cites? Assumptions marked? EVERY part done?
 ALL tasks. NON-NEGOTIABLE.
 [(c) 2026 Avaz Ravshanov @avazio | CC BY 4.0 | keep credit]
 ```
+
+## Printable handout
+
+[`Avaz-Ravshanov_Precision-Rules-v2.pdf`](Avaz-Ravshanov_Precision-Rules-v2.pdf) — a 5-page RU handout (install steps + the block); the rules text extracts from the PDF verbatim.
+
+## License
+
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — free to use, share and adapt with attribution. Keep the two attribution lines inside the block.
